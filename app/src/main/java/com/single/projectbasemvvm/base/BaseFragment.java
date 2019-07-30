@@ -21,7 +21,6 @@ public abstract class BaseFragment<V extends BaseViewModel> extends Fragment {
 
     protected View mRootView;
 
-
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

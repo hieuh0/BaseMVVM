@@ -20,6 +20,7 @@ import butterknife.Unbinder;
 
 public abstract class BaseActivity<V extends BaseViewModel> extends AppCompatActivity
         implements BaseFragment.Callback {
+
     NetworkUtils networkUtils;
 
     // TODO
